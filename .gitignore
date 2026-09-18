@@ -1,0 +1,52 @@
+# Credentials and local secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+.ssh/
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+secrets.yaml
+secrets.yml
+
+# Accidentally named SSH key files found in this folder
+ssh-keygen*
+
+# macOS and Windows filesystem metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# MATLAB autosaves and compiled caches
+*.asv
+*.m~
+slprj/
+*.slxc
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Editor temporary files
+*.swp
+*.swo
+*~
